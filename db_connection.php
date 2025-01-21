@@ -1,9 +1,9 @@
 <?php
 // Configuración de la conexión
-$servername = "db5016983577.hosting-data.io"; // Cambia esto si tu servidor no es local
-$username = "dbu564598"; // Cambia esto por el usuario de tu base de datos
-$password = "CmR_1972%_BAR_PPE2024"; // Cambia esto por la contraseña de tu base de datos
-$database = "dbs13686309"; // Cambia esto por el nombre de tu base de datos
+$servername = "18.230.66.209"; // Cambia esto si tu servidor no es local
+$username = "root"; // Cambia esto por el usuario de tu base de datos
+$password = "amaterasu1"; // Cambia esto por la contraseña de tu base de datos
+$database = "redsalva"; // Cambia esto por el nombre de tu base de datos
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $database);
