@@ -1,0 +1,305 @@
+
+.floating-buttons {
+	position: fixed;
+	bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+	left: 20px; /* Ajusta la distancia desde la izquierda */
+	display: flex;
+	flex-direction: row; /* Los botones se muestran en línea horizontal */
+	gap: 10px; /* Espacio entre los botones */
+}
+
+.floating-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #33A14B; /* Color de fondo para los botones */
+	color: #fff; /* Color del texto/iconos */
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.floating-button:hover {
+	background-color: #0D541C; /* Cambia el color de fondo al pasar el cursor */
+	color: #fff !important;
+}
+
+.text-justify{
+	text-align: justify !important;
+}
+
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.roboto{
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+
+.fixed-bottom{
+    bottom: 15px !important;
+    position: fixed;
+}
+
+
+/*------------------------------------
+  Botones de redes sociales al footer
+------------------------------------*/
+  .g-fb-button{
+    background-color: #2e35ff !important;
+    color: #fff !important;
+      border-radius: 100px !important;
+  }
+  .g-ig-button{
+    border-radius: 100px !important;
+    color: #fff !important;
+    background: #E00062 !important;
+  }
+  .g-whatsapp-button {
+    color: #fff !important;
+    border-radius: 100px !important;
+    background-color: #25d366 !important;
+  }
+  .g-fb-button:hover{
+    background-color: #3b5998 !important;
+  }
+  .g-ig-button:hover{
+    background-color: #AF47A6 !important;
+  }
+  .g-whatsapp-button:hover{
+    background-color: #2DA661 !important;
+  }
+
+  .btn-naranja {
+    color: #fff !important;
+    border-radius: 100px !important;
+    background-color: #F26C4F !important;
+  }
+  .btn-naranja:hover{
+    background-color: #BD4B31 !important;
+  }
+
+
+/*------------------------------------
+  Colores montesur
+------------------------------------*/
+
+.color-azul{
+  color: #1B325F !important;
+}
+.color-celeste{
+  color: #3A89C9 !important;
+}
+.color-naranja{
+  color: #F26C4F !important;
+}
+
+.color-celeste-bajo{
+  color: #E9F2F9 !important;
+}
+/*------------------------------------
+  Fondos montesur
+------------------------------------*/
+
+.fondo-azul{
+  background-color: #1B325F !important;
+}
+.fondo-celeste{
+  background-color: #3A89C9 !important;
+}
+.fondo-naranja{
+  background-color: #F26C4F !important;
+}
+
+.fondo-celeste-bajo{
+  background-color: #E9F2F9 !important;
+}
+/*------------------------------------
+  Colores montesur HOVER
+------------------------------------*/
+
+.color-azul-hover:hover{
+  color: #1B325F !important;
+}
+.color-celeste-hover:hover{
+  color: #3A89C9 !important;
+}
+.color-naranja-hover:hover{
+  color: #F26C4F !important;
+}
+
+.color-celeste-bajo-hover:hover{
+  color: #E9F2F9 !important;
+}
+
+#footer[role="contentinfo"] {
+    display: none !important;
+}
+
+.sidebar {
+    transition: top 0.3s ease-in-out;
+    width: 100%; /* Asegura el ancho dinámico */
+    max-width: 300px; /* Ajusta al diseño */
+}
+
+.widget-title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+/* Estado normal (inactivo) - semitransparente */
+.swiper-step-pagination .swiper-slide {
+  background-color: rgba(242, 108, 79, 1) !important; /* Verde semitransparente */
+  color: rgba(255, 255, 255, 0.5) !important; /* Blanco semitransparente */
+  padding: 10px !important;
+  text-align: center !important;
+  border-radius: 10px !important;
+  transition: background-color 0.3s ease, color 0.3s ease !important; /* Transición suave */
+}
+
+/* Estado activo - sin transparencia */
+.swiper-step-pagination .swiper-slide.swiper-slide-active,
+.swiper-step-pagination .swiper-slide:focus {
+  background-color: rgba(242, 108, 79, 1) !important; /* Fondo verde completo */
+  color: white !important; /* Texto blanco completo */
+  outline: none !important; /* Quitar el borde por defecto al enfocar */
+}
+
+
+/* El estado focus también será sin transparencia */
+.swiper-step-pagination .swiper-slide:focus {
+  background-color: rgba(242, 108, 79, 1) !important;
+  color: white !important;
+}
+
+@media (max-width: 600px) {
+  .slide-transparent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparencia blanca */
+    z-index: 1;
+  }
+
+  .slide-transparent .container,
+  .slide-transparent .row,
+  .slide-transparent .col-md-5 {
+    position: relative;
+    z-index: 2; /* Coloca el texto sobre la transparencia */
+  }
+}
